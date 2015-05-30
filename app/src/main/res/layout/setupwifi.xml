@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ff2d2c4a"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Choose Work WIFI"
+        android:id="@+id/tvSetupWifi"
+        android:textColor="#ffffffff"
+        android:layout_above="@+id/imgbList"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgbList"
+        android:background="@drawable/wifi"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgbSetupWifi"
+        android:background="@drawable/next"
+        android:layout_below="@+id/imgbList"
+        android:layout_alignLeft="@+id/imgbList"
+        android:layout_alignStart="@+id/imgbList"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvStoredWifi"
+        android:layout_below="@+id/imgbSetupWifi"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:background="#ff2e2056"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enter your EMAIL "
+        android:id="@+id/tvEmail"
+        android:textColor="#ffffffff"
+        android:layout_above="@+id/etEmail"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgTimeSheetSave"
+        android:background="@drawable/next"
+        android:layout_below="@+id/etEmail"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/etEmail"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:textColor="#ffffffff"
+        android:backgroundTintMode="multiply"
+        android:background="#ff3b1156"
+        android:layout_marginBottom="20dp"
+        />
+
+</RelativeLayout>
